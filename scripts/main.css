@@ -1,11 +1,17 @@
-.container{
-    width: 100%;
-    height: 100%;
-    margin: 2fr;
-    padding: 1fr;
-    border: blueviolet;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    margin: 2px;
+    padding: 2px;
+    background-color: #ffffff;
 }
