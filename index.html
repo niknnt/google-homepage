@@ -3,23 +3,36 @@
     <head>
         <meta charset="UTF-8">    
         <title>Google</title>
-        <!--<link rel="stylesheet" type="text/css" href="/scripts/reset.css">-->
+        <link rel="stylesheet" type="text/css" href="/scripts/reset.css">
         <link rel="stylesheet" type="text/css" href="/scripts/main.css">
     </head>
     <body>
-        <a href="#google">
-            <img class = "logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        </a>
-        <ul class="menu">
-            <li><a href="#gmail">Gmail</a></li>
-            <li><a href="#images">Images</a></li>
-        </ul>
         
-        <form action="#">
-            <input type="text" placeholder="google search" required>
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
-        </form>
+        <header class="top-line">
+            <ul class="menu">
+                <li><a href="#gmail">Gmail</a></li>
+                <li><a href="#images">Images</a></li>
+            </ul>
+        </header>
+        
+        <div class="div-logo">
+            <a href="#google">
+                <img class = "logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+            </a>
+        </div>
+        
+        <div class="search-form">
+            <form action="#">
+                <input type="text" placeholder="google search" required>
+                <div class="search-button">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </div>
+                
+            </form>
+        </div>
+
+        
        
         <p>Have questions about the COVID-19 vaccine? Get the facts</p>
         <p>Google offered in 
@@ -32,7 +45,7 @@
             <a href="#">Gujarati</a>
         </p>
        
-        <ul>            
+        <ul class="bottom-nav">            
             <li><a href="#about">About</a></li>
             <li><a href="#advertising">Advertising</a></li>
             <li><a href="#business">Business</a></li>
