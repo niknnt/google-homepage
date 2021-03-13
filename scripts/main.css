@@ -66,3 +66,13 @@ li a:hover{
     padding: 10px;
     text-align: center;
 }
+
+input{
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    border-width: thin;
+    border-color: wheat;
+}
